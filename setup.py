@@ -16,7 +16,7 @@ with open(path.join(this_directory, 'README.md'),'r',encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name = "jd-sdk",
+    name = "jdl-sdk",
     version = jd.__version__,
     description = "Jingdong Logistic Python SDK",
     long_description = long_description,
