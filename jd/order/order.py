@@ -569,11 +569,11 @@ class Order(Comm):
 
     def rate(
         self,
-        waybill_code: str | None = None,
-        order_code: str | None = None,
-        order_origin: str | None = None,
-        customer_code: str | None = None,
-        business_unit_code: str | None = None,
+        waybill_code,
+        order_code,
+        order_origin,
+        customer_code,
+        business_unit_code
     ):
         """
         查询订单/运单的实际费用（运费）。
